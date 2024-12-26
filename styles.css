@@ -1,0 +1,14 @@
+[data-animated] {
+    border: 1px solid red;
+}
+
+[data-animated] h1{
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.show h1{
+    opacity: 1;
+    transition: all 2s ease-in-out;
+    transform: translateY(0);
+}
